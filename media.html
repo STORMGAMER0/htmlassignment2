@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back-End Web Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #aaa;
+            font-size: 18px;
+        }
+        .resume-btn {
+            background: red;
+            padding: 10px 15px;
+            border-radius: 10px;
+            color: #fff;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+        .hero picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            color: #bbb;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 500px;
+            margin-bottom: 15px;
+        }
+        .cta {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: red;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #fff;
+            box-shadow: 0px 0px 10px red;
+        }
+        header #index{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: white;
+justify-self: flex-start;  }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="index">TABLE</a>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="resume-btn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <picture>
+            <source srcset="./WhatsApp Image 2024-12-14 at 19.47.57_39547ea9.jpg" media="(min-width: 1024px)">
+            <source srcset="./WhatsApp Image 2024-12-14 at 19.47.57_39547ea9.jpg" media="(min-width: 768px)">
+            <img src="./WhatsApp Image 2024-12-14 at 19.47.57_39547ea9.jpg" alt="Profile Picture">
+        </picture>
+        <h1>Hi, I'm Emmanuel 👋</h1>
+        <h2>Aspiring BACK-END WEB DEVELOPER.</h2>
+        <p>A passionate <span class="highlight">Backend / Fullstack-Jamstack</span> web developer and <span class="highlight">Anime</span> enthusiast specialized in building pixel-perfect interactive websites/applications.</p>
+        <a href="#" class="cta">Reach Out</a>
+    </section>
+</body>
+</html>
